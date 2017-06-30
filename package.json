@@ -1,6 +1,6 @@
 {
   "name": "@oxylian/i18n",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utilities about locales : BCP47 parsing/formatting",
   "homepage": "https://github.com/oxylian/i18n-js",
   "main": "dist/src/index.js",
@@ -10,6 +10,8 @@
     "name": "Sébastian Dejonghe",
     "email": "sebdej@hotmail.com"
   },
+  "files": ["LICENSE","README.md","src/","dist/"],
+  "private": false,
   "repository": {
     "type" : "git",
     "url": "https://github.com/oxylian/i18n-js.git"
