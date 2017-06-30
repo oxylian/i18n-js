@@ -1,0 +1,25 @@
+{
+  "name": "@oxylian/i18n",
+  "version": "0.0.1",
+  "description": "Utilities about locales : BCP47 parsing/formatting",
+  "homepage": "https://github.com/oxylian/i18n-js",
+  "main": "dist/src/index.js",
+  "bugs": { "url": "https://github.com/oxylian/i18n-js/issues" },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Sébastian Dejonghe",
+    "email": "sebdej@hotmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/oxylian/i18n-js.git"
+  },
+  "scripts": {
+    "test": "mocha dist/test/locale.js"
+  },
+  "devDependencies": {
+    "@types/expect.js": "^0.3.29",
+    "@types/mocha": "^2.2.41",
+    "expect.js": "^0.3.1"
+  }
+}
